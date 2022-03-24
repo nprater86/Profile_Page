@@ -55,7 +55,7 @@ a:hover {
 }
 
 .btn {
-    background-color: lightskyblue;
+    background-color: darkgray;
     color: white;
     padding: 5px;
     border: 2px solid black;
@@ -197,6 +197,7 @@ a:hover {
     min-height: 125px;
     border: 3px solid gray;
     display: flex;
+    flex-direction: column;
     width: 350px;
     margin-bottom: 25px;
 }
@@ -216,9 +217,83 @@ a:hover {
 }
 
 .roundNumber {
-    padding: 5px;
+    padding: 3px;
     background-color: lightgray;
     color: gray;
     border: 2px solid gray;
     border-radius: 100%;
+}
+
+.connectionSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.connection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profilePic {
+    height: 50px;
+    width: 50px;
+}
+
+.choice {
+    width: 20px;
+    height: 20px;
+}
+
+.choice:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.contact h4 {
+    margin-left: 5px;
+}
+
+.acceptDeny {
+    margin-right: 15px;
+}
+
+.acceptDeny button {
+    border-radius: 100%;
+}
+
+/* Current Connections */
+
+.currentConnections {
+    min-height: 125px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+.currentConnections .topBar {
+    background: black;
+    width: 100%;
+    height: 41.6625px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.currentConnections .topBar h4 {
+    margin-left: 10px;
+}
+
+.viewMore {
+    color: blue;
 }

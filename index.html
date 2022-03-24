@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Header Section - Contains Navigation Elements and is Fixed to Top -->
     <header>
         <div class="nav">
             <div class="navContainer">
@@ -24,12 +25,15 @@
             <button class="btn">Sign Out</button>
         </div>
     </header>
+    <!-- Main Content -->
     <div class="main">
+        <!-- Content in Left Column -->
         <div class="leftColumn">
+            <!-- Profile ID Card -->
             <div class="idCard">
                 <div class="topBar"></div>
                 <div class="content">
-                    <img id="profilePic" src="./images/user-circle.png" alt="generic user profile circle">
+                    <img id="profilePic" src="./images/jane-m.jpg" alt="generic user profile circle">
                     <h1>Jane Doe</h1>
                     <div class="location">
                         <img id="mapPin" src="./images/map-marker.png" alt="map pin">
@@ -43,6 +47,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Education Section -->
             <div class="educationCard">
                 <div class="topBar">
                     <h4>Education</h4>
@@ -54,14 +59,64 @@
                 </div>
             </div>
         </div>
+        <!-- Conent is Right Column -->
         <div class="rightColumn">
+            <!-- Connection Requests -->
             <div class="connectionRequests">
                 <div class="topBar">
                     <h4 class="roundNumber">2</h4>
                     <h4>Connection Requests</h4>
                 </div>
-                <div class="connection"></div>
-                <div class="connection"></div>
+                <div class="connectionSection">
+                    <div class="connection">
+                        <div class="contact">
+                            <img class="profilePic" src="./images/todd-s.jpg" alt="">
+                            <h4>Todd E</h4>
+                        </div>
+                        <div class="acceptDeny">
+                            <input class="choice" type="image" src="./images/accept-circle.png" alt="">
+                            <input class="choice" type="image" src="./images/close-circle.png" alt="">
+                        </div>
+                    </div>
+                    <div class="connection">
+                        <div class="contact">
+                            <img class="profilePic" src="./images/phil-s.jpg" alt="">
+                            <h4>Phil K</h4>
+                        </div>
+                        <div class="acceptDeny">
+                            <input class="choice" type="image" src="./images/accept-circle.png" alt="">
+                            <input class="choice" type="image" src="./images/close-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Your Connections Section -->
+            <div class="currentConnections">
+                <div class="topBar">
+                    <h4 class="roundNumber">500+</h4>
+                    <h4>Your Connections</h4>
+                </div>
+                <div class="connectionSection">
+                    <div class="connection">
+                        <img class="profilePic" src="./images/todd-s.jpg" alt="">
+                        <h4>Adrien D</h4>
+                    </div>
+                    <div class="connection">
+                        <img class="profilePic" src="./images/phil-s.jpg" alt="">
+                        <h4>Anne J</h4>
+                    </div>
+                    <div class="connection">
+                        <img class="profilePic" src="./images/todd-s.jpg" alt="">
+                        <h4>Alayne T</h4>
+                    </div>
+                    <div class="connection">
+                        <img class="profilePic" src="./images/phil-s.jpg" alt="">
+                        <h4>Arry Y</h4>
+                    </div>
+                </div>
+                <div class="viewMore">
+                    <a href="#">View More</a>
+                </div>
             </div>
         </div>
     </div>
