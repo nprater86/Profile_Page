@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="navContainer">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </ul>
+            </div>
+            <button class="btn">Sign Out</button>
+        </div>
+    </header>
+    <div class="main">
+        <div class="leftColumn">
+            <div class="idCard">
+                <div class="topBar"></div>
+                <div class="content">
+                    <img id="profilePic" src="./images/user-circle.png" alt="generic user profile circle">
+                    <h1>Jane Doe</h1>
+                    <div class="location">
+                        <img id="mapPin" src="./images/map-marker.png" alt="map pin">
+                        <h4>Seattle</h4>
+                    </div>
+                    <h4>Developer | Engineer | Problem Solver</h4>
+                    <h4>Master of shadows and the Internet!</h4>
+                    <div class="editProfile">
+                        <img id="gear" src="./images/gear.png" alt="">
+                        <a href="./index.html">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="educationCard">
+                <div class="topBar">
+                    <h4>Education</h4>
+                </div>
+                <div class="content">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <h4 class="dates">Dec 2019 - Mar 2020</h4>
+                    <h4>Triple black belt in Python, MERN, and C#</h4>
+                </div>
+            </div>
+        </div>
+        <div class="rightColumn">
+            <div class="connectionRequests">
+                <div class="topBar">
+                    <h4 class="roundNumber">2</h4>
+                    <h4>Connection Requests</h4>
+                </div>
+                <div class="connection"></div>
+                <div class="connection"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

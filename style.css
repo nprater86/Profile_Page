@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+
+header {
+    background-color: gray;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 1000px;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    color: white;
+}
+
+.nav-links {
+    width: 400px;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: lightskyblue;
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    align-self: center;
+}
+
+.btn:active {
+    box-shadow: 0px 0px black;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* Content */
+
+.main {
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+
+}
+
+/* Left Column */
+
+.leftColumn {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ID Card */
+
+
+.idCard{
+    height: 250px;
+    border: 3px solid gray;
+    display: flex;
+    width: 550px;
+    margin-bottom: 25px;
+}
+
+.idCard .topBar {
+    background: teal;
+    width: 100%;
+    height: 33.33%;
+}
+
+.idCard .content {
+    position: absolute;
+    margin: 50px 0 0 25px;
+}
+
+#profilePic {
+    height: 50px;
+    width: 50px;
+}
+
+#mapPin{
+    height: 20px;
+    width: auto;
+}
+.location {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.location h4 {
+    margin-left: 15px;
+}
+
+#gear {
+    height: 15px;
+    width: 15px;
+}
+
+.editProfile {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.editProfile a {
+    margin-left: 5px;
+    color: blue;
+}
+
+/* Education Card */
+
+.educationCard {
+    height: 250px;
+    width: 550px;
+    border: 3px solid gray;
+    display: flex;
+}
+
+.educationCard .topBar {
+    background: black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.educationCard .topBar h4 {
+    color: white;
+    margin-left: 25px;
+}
+
+.educationCard .content {
+    position: absolute;
+    margin: 50px 0 0 25px;
+}
+
+.educationCard .content h2, h4 {
+    margin-top: 5px;
+}
+
+.dates {
+    opacity: 70%;
+}
+
+/* Right Column */
+
+.rightColumn {
+    width: 350px;
+}
+
+/* Connection Requests */
+.connectionRequests {
+    min-height: 125px;
+    border: 3px solid gray;
+    display: flex;
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+.connectionRequests .topBar {
+    background: black;
+    width: 100%;
+    height: 41.6625px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.connectionRequests .topBar h4 {
+    margin-left: 10px;
+}
+
+.roundNumber {
+    padding: 5px;
+    background-color: lightgray;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 100%;
+}
