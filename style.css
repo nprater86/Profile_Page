@@ -40,9 +40,13 @@ header {
     display: flex;
 }
 
-li {
+.nav li {
     list-style-type: none;
     margin-left: 15px;
+}
+
+.nav li:hover{
+    transform: scale(1.1);
 }
 
 .nav a {
@@ -50,7 +54,7 @@ li {
     color: white;
 }
 
-a:hover {
+.main a:hover {
     font-weight: bold;
 }
 
@@ -147,8 +151,7 @@ a:hover {
 }
 
 #gear:hover {
-    height: 16px;
-    width: 16px;
+    transform: scale(1.1);
 }
 
 #gear:active {
@@ -227,7 +230,7 @@ a:hover {
     color: white;
 }
 
-.connectionRequests .topBar h4 {
+.connectionRequests .topBar h3 {
     margin-left: 10px;
 }
 
@@ -261,6 +264,10 @@ a:hover {
 .choice {
     width: 20px;
     height: 20px;
+}
+
+.choice:hover{
+    transform: scale(1.1);
 }
 
 .choice:active {
@@ -302,7 +309,7 @@ a:hover {
     color: white;
 }
 
-.currentConnections .topBar h4 {
+.currentConnections .topBar h3 {
     margin-left: 10px;
 }
 
