@@ -11,7 +11,7 @@ body {
 
 
 header {
-    background-color: gray;
+    background-color: teal;
     min-height: 50px;
     width: 100%;
     display: flex;
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .btn {
-    background-color: darkgray;
+    background-color: lightseagreen;
     color: white;
     padding: 5px;
     border: 2px solid black;
@@ -119,6 +119,7 @@ a:hover {
 #userPic {
     height: 100px;
     width: 100px;
+    border-radius: 50%;
 }
 
 #mapPin{
@@ -252,6 +253,7 @@ a:hover {
 .profilePic {
     height: 50px;
     width: 50px;
+    border-radius: 50%;
 }
 
 .choice {
