@@ -88,36 +88,43 @@ a:hover {
 /* Left Column */
 
 .leftColumn {
-    min-width: 600px;
+    width: 600px;
     display: flex;
     flex-direction: column;
 }
 
 /* ID Card */
 
-
 .idCard{
     min-height: 300px;
     border: 3px solid gray;
     display: flex;
+    flex-direction: column;
     margin-bottom: 25px;
 }
 
 .idCard .topBar {
     background: teal;
     width: 100%;
-    height: 33.33%;
+    height: 100px;
 }
 
 .idCard .content {
-    position: absolute;
-    margin: 50px 0 0 25px;
+    position: relative;
+    margin: 50px 0 25px 25px;
+}
+
+.idCard .content p {
+    font-weight: bold;
+    font-size: 1.17em;
 }
 
 #userPic {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    position: absolute;
+    margin: 50px 0 0 25px;
 }
 
 #mapPin{
