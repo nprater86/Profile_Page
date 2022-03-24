@@ -24,7 +24,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between; 
-    min-width: 925px;
+    min-width: 1000px;
 }
 
 .navContainer{
@@ -77,19 +77,18 @@ a:hover {
 /* Content */
 
 .main {
-    min-width: 100%;
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
     top: 75px;
     display: flex;
     justify-content: center;
     gap: 25px; 
-
 }
 
 /* Left Column */
 
 .leftColumn {
-    min-width: 550px;
+    min-width: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -101,7 +100,6 @@ a:hover {
     min-height: 300px;
     border: 3px solid gray;
     display: flex;
-    min-width: 550px;
     margin-bottom: 25px;
 }
 
@@ -167,8 +165,7 @@ a:hover {
 /* Education Card */
 
 .educationCard {
-    min-height: 250px;
-    min-width: 550px;
+    min-height: 200px;
     border: 3px solid gray;
     display: flex;
 }
@@ -202,7 +199,7 @@ a:hover {
 /* Right Column */
 
 .rightColumn {
-    min-width: 350px;
+    min-width: 375px;
 }
 
 /* Connection Requests */
@@ -211,15 +208,13 @@ a:hover {
     border: 3px solid gray;
     display: flex;
     flex-direction: column;
-    min-width: 350px;
     margin-bottom: 25px;
 }
 
-/* 41.6625px; */
 .connectionRequests .topBar {
     background: black;
     width: 100%;
-    min-height: 30%;
+    height: 41.6625px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,7 +242,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 25px 10px 25px;
 }
 
 .profilePic {
@@ -287,7 +282,6 @@ a:hover {
     border: 3px solid gray;
     display: flex;
     flex-direction: column;
-    width: 350px;
     margin-bottom: 25px;
 }
 
