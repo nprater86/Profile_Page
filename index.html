@@ -64,28 +64,28 @@
             <!-- Connection Requests -->
             <div class="connectionRequests">
                 <div class="topBar">
-                    <h3 class="roundNumber">2</h3>
+                    <h3 class="connRequests roundNumber">2</h3>
                     <h3>Connection Requests</h3>
                 </div>
                 <div class="connectionSection">
-                    <div class="connection">
+                    <div id="todde" class="connection">
                         <div class="contact">
                             <img class="profilePic" src="./images/todd-s.jpg" alt="">
                             <h3>Todd E</h3>
                         </div>
                         <div class="acceptDeny">
-                            <input class="choice" type="image" src="./images/accept-circle.png" alt="">
-                            <input class="choice" type="image" src="./images/close-circle.png" alt="">
+                            <input class="choice" type="image" src="./images/accept-circle.png" alt="" onclick="removeConnection(todde)">
+                            <input class="choice" type="image" src="./images/close-circle.png" alt="" onclick="removeConnection(todde)">
                         </div>
                     </div>
-                    <div class="connection">
+                    <div id="philk" class="connection">
                         <div class="contact">
                             <img class="profilePic" src="./images/phil-s.jpg" alt="">
                             <h3>Phil K</h3>
                         </div>
                         <div class="acceptDeny">
-                            <input class="choice" type="image" src="./images/accept-circle.png" alt="">
-                            <input class="choice" type="image" src="./images/close-circle.png" alt="">
+                            <input class="choice" type="image" src="./images/accept-circle.png" alt="" onclick="removeConnection(philk)">
+                            <input class="choice" type="image" src="./images/close-circle.png" alt="" onclick="removeConnection(philk)">
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
             <!-- Your Connections Section -->
             <div class="currentConnections">
                 <div class="topBar">
-                    <h3 class="roundNumber">500+</h3>
+                    <h3 class="urConn roundNumber">500+</h3>
                     <h3>Your Connections</h3>
                 </div>
                 <div class="connectionSection">
@@ -120,5 +120,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
