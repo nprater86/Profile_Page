@@ -34,7 +34,7 @@
                 <div class="topBar"></div>
                 <img id="userPic" src="./images/jane-m.jpg" alt="generic user profile circle">
                 <div class="content">
-                    <h1>Jane Doe</h1>
+                    <h1 id="userFullName">Jane Doe</h1>
                     <div class="location">
                         <img id="mapPin" src="./images/map-marker.png" alt="map pin">
                         <h3>Seattle</h3>
@@ -42,8 +42,8 @@
                     <h3>Developer | Engineer | Problem Solver</h3>
                     <p>Master of shadows and the Internet!</p>
                     <div class="editProfile">
-                        <a href="#"><img id="gear" src="./images/gear.png" alt=""></a>
-                        <a href="#">edit profile</a>
+                        <a href="#"><img id="gear" src="./images/gear.png" alt="" onclick="changeName(userFullName)"></a>
+                        <a href="#" onclick="changeName(userFullName)">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                             <h3>Todd E</h3>
                         </div>
                         <div class="acceptDeny">
-                            <input class="choice" type="image" src="./images/accept-circle.png" alt="" onclick="removeConnection(todde)">
+                            <input class="choice" type="image" src="./images/accept-circle.png" alt="" onclick="addConnection(todde)">
                             <input class="choice" type="image" src="./images/close-circle.png" alt="" onclick="removeConnection(todde)">
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             <h3>Phil K</h3>
                         </div>
                         <div class="acceptDeny">
-                            <input class="choice" type="image" src="./images/accept-circle.png" alt="" onclick="removeConnection(philk)">
+                            <input class="choice" type="image" src="./images/accept-circle.png" alt="" onclick="addConnection(philk)">
                             <input class="choice" type="image" src="./images/close-circle.png" alt="" onclick="removeConnection(philk)">
                         </div>
                     </div>
@@ -93,7 +93,7 @@
             <!-- Your Connections Section -->
             <div class="currentConnections">
                 <div class="topBar">
-                    <h3 class="urConn roundNumber">500+</h3>
+                    <h3 class="urConn roundNumber">500</h3>
                     <h3>Your Connections</h3>
                 </div>
                 <div class="connectionSection">
